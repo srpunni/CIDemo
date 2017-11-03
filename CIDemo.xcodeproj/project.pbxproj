@@ -437,7 +437,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = 55VX36XFWS;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = 55VX36XFWS;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -594,12 +594,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = 55VX36XFWS;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -702,12 +703,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = 55VX36XFWS;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
