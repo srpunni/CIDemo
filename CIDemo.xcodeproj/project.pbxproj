@@ -12,26 +12,7 @@
 		A5C190D21FA858A800ED6E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C190D01FA858A800ED6E11 /* Main.storyboard */; };
 		A5C190D41FA858A800ED6E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C190D31FA858A800ED6E11 /* Assets.xcassets */; };
 		A5C190D71FA858A800ED6E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C190D51FA858A800ED6E11 /* LaunchScreen.storyboard */; };
-		A5C190E21FA858A800ED6E11 /* CIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C190E11FA858A800ED6E11 /* CIDemoTests.swift */; };
-		A5C190ED1FA858A800ED6E11 /* CIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C190EC1FA858A800ED6E11 /* CIDemoUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A5C190DE1FA858A800ED6E11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5C190C11FA858A800ED6E11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5C190C81FA858A800ED6E11;
-			remoteInfo = CIDemo;
-		};
-		A5C190E91FA858A800ED6E11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5C190C11FA858A800ED6E11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5C190C81FA858A800ED6E11;
-			remoteInfo = CIDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A5C190C91FA858A800ED6E11 /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,14 @@
 		A5C190D31FA858A800ED6E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C190D61FA858A800ED6E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C190D81FA858A800ED6E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5C190DD1FA858A800ED6E11 /* CIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C190E11FA858A800ED6E11 /* CIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDemoTests.swift; sourceTree = "<group>"; };
 		A5C190E31FA858A800ED6E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5C190E81FA858A800ED6E11 /* CIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C190EC1FA858A800ED6E11 /* CIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDemoUITests.swift; sourceTree = "<group>"; };
 		A5C190EE1FA858A800ED6E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A5C190C61FA858A800ED6E11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5C190DA1FA858A800ED6E11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5C190E51FA858A800ED6E11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				A5C190C91FA858A800ED6E11 /* CIDemo.app */,
-				A5C190DD1FA858A800ED6E11 /* CIDemoTests.xctest */,
-				A5C190E81FA858A800ED6E11 /* CIDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,42 +108,6 @@
 			productReference = A5C190C91FA858A800ED6E11 /* CIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5C190DC1FA858A800ED6E11 /* CIDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5C190F41FA858A800ED6E11 /* Build configuration list for PBXNativeTarget "CIDemoTests" */;
-			buildPhases = (
-				A5C190D91FA858A800ED6E11 /* Sources */,
-				A5C190DA1FA858A800ED6E11 /* Frameworks */,
-				A5C190DB1FA858A800ED6E11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5C190DF1FA858A800ED6E11 /* PBXTargetDependency */,
-			);
-			name = CIDemoTests;
-			productName = CIDemoTests;
-			productReference = A5C190DD1FA858A800ED6E11 /* CIDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A5C190E71FA858A800ED6E11 /* CIDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5C190F71FA858A800ED6E11 /* Build configuration list for PBXNativeTarget "CIDemoUITests" */;
-			buildPhases = (
-				A5C190E41FA858A800ED6E11 /* Sources */,
-				A5C190E51FA858A800ED6E11 /* Frameworks */,
-				A5C190E61FA858A800ED6E11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5C190EA1FA858A800ED6E11 /* PBXTargetDependency */,
-			);
-			name = CIDemoUITests;
-			productName = CIDemoUITests;
-			productReference = A5C190E81FA858A800ED6E11 /* CIDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +121,6 @@
 					A5C190C81FA858A800ED6E11 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Manual;
-					};
-					A5C190DC1FA858A800ED6E11 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
-						TestTargetID = A5C190C81FA858A800ED6E11;
-					};
-					A5C190E71FA858A800ED6E11 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
-						TestTargetID = A5C190C81FA858A800ED6E11;
 					};
 				};
 			};
@@ -221,8 +138,6 @@
 			projectRoot = "";
 			targets = (
 				A5C190C81FA858A800ED6E11 /* CIDemo */,
-				A5C190DC1FA858A800ED6E11 /* CIDemoTests */,
-				A5C190E71FA858A800ED6E11 /* CIDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C190DB1FA858A800ED6E11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5C190E61FA858A800ED6E11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,36 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C190D91FA858A800ED6E11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5C190E21FA858A800ED6E11 /* CIDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5C190E41FA858A800ED6E11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5C190ED1FA858A800ED6E11 /* CIDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A5C190DF1FA858A800ED6E11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5C190C81FA858A800ED6E11 /* CIDemo */;
-			targetProxy = A5C190DE1FA858A800ED6E11 /* PBXContainerItemProxy */;
-		};
-		A5C190EA1FA858A800ED6E11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5C190C81FA858A800ED6E11 /* CIDemo */;
-			targetProxy = A5C190E91FA858A800ED6E11 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A5C190D01FA858A800ED6E11 /* Main.storyboard */ = {
@@ -344,11 +216,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = Z9M52JTG8X;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -365,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
@@ -405,11 +277,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = Z9M52JTG8X;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -420,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
 				SDKROOT = iphoneos;
@@ -443,7 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,68 +334,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A5C190F51FA858A800ED6E11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
-			};
-			name = Debug;
-		};
-		A5C190F61FA858A800ED6E11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
-			};
-			name = Release;
-		};
-		A5C190F81FA858A800ED6E11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CIDemo;
-			};
-			name = Debug;
-		};
-		A5C190F91FA858A800ED6E11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CIDemo;
 			};
 			name = Release;
 		};
@@ -556,11 +370,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = Z9M52JTG8X;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -577,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
@@ -600,39 +414,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Alpha;
-		};
-		A5C190FC1FA8594800ED6E11 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
-			};
-			name = Alpha;
-		};
-		A5C190FD1FA8594800ED6E11 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CIDemo;
 			};
 			name = Alpha;
 		};
@@ -665,11 +450,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Landmark Online India Private Limited (55VX36XFWS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "Lifestyle-India-Distribution";
+				DEVELOPMENT_TEAM = Z9M52JTG8X;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -686,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
@@ -709,39 +494,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fe6f6510-5f0c-4776-b70c-4aa36c5a3b56";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "Lifestyle-India-Distribution";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Beta;
-		};
-		A5C191001FA8594E00ED6E11 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
-			};
-			name = Beta;
-		};
-		A5C191011FA8594E00ED6E11 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landmarkgroup.lifestyleindia.CIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CIDemo;
 			};
 			name = Beta;
 		};
@@ -766,28 +522,6 @@
 				A5C190FF1FA8594E00ED6E11 /* Beta */,
 				A5C190FB1FA8594800ED6E11 /* Alpha */,
 				A5C190F31FA858A800ED6E11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5C190F41FA858A800ED6E11 /* Build configuration list for PBXNativeTarget "CIDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5C190F51FA858A800ED6E11 /* Debug */,
-				A5C191001FA8594E00ED6E11 /* Beta */,
-				A5C190FC1FA8594800ED6E11 /* Alpha */,
-				A5C190F61FA858A800ED6E11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5C190F71FA858A800ED6E11 /* Build configuration list for PBXNativeTarget "CIDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5C190F81FA858A800ED6E11 /* Debug */,
-				A5C191011FA8594E00ED6E11 /* Beta */,
-				A5C190FD1FA8594800ED6E11 /* Alpha */,
-				A5C190F91FA858A800ED6E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
